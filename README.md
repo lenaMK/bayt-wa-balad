@@ -1,13 +1,13 @@
 # *Bayt wa Balad*
 Contributions to [*Bayt wa Balad* (‫وبلد‬ ‫بيت‬): The Palestinian Cultural Mapping Project](https://mpp-dc.org/baytwabalad/), a digital initiative from the [Museum of the Palestinian People](https://mpp-dc.org).
 
-
+[About the project](./about)
 
 Initial project team: 
 
-- Steve Benzek, Digital Architect
-- Wafa Ghnaim, Research Lead and Oral History Interviewer
-- Julia Pitner, Project Manager
+- [Steve Benzek](https://www.benzekdesign.com/about-us/), Digital Architect
+- [Wafa Ghnaim](https://www.tatreezandtea.com/wafa), Research Lead and Oral History Interviewer
+- [Julia Pitner](https://mpp-dc.org/our-team-2/), Project Manager
 
 
 
