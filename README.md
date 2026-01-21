@@ -14,6 +14,6 @@ Initial project team:
 I started collaborating in the project in the fall of 2025, with the purpose of assisting the team in the research and development process. Current contributions include: 
 
 - [*Bayt wa Balad* project bibliography](https://www.zotero.org/groups/6331652/bayt-wa-balad/library): the bibliography compiles references we gathered. It covers the wide range of topics of the project, such as: mapping and counter-mapping, Palestinian heritage, maps and data portals, decolonial museum practices, visual narratives and storytelling for cultural collections
-- Litterature review: the litterature review is a derived research outcome from the bibliography. By highlighting key references we found in the literature, it aims to point to good practices that apply to our approach or identify challenges we might encounter in the making of *Bayt wa Balad*.
+- Literature review: the literature review is a derived research outcome from the bibliography. By highlighting key references we found in the literature, it aims to point to good practices that apply to our approach or identify challenges we might encounter in the making of *Bayt wa Balad*.
 - Object prototypes: the *Bayt wa Balad* team is collectively working towards the first prototypes. They are StoryMaps focusing on specific objects in the collection, merging in-depth research with geo/visual enhancements.
 
