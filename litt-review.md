@@ -170,17 +170,25 @@ Wafa
 
 ## Visual and cartographic story telling
 
+
+
 ### Palestinian narratives
 
 Visualizing Palestine
 
 - “storytelling through poetry and art is the only remaining tool for narrating the violent distortion and transfiguration of humanity” (Anani, 2020, p. 6)
 
+
+
 ### Story Maps
+
+Inspiration/notes from storyMaps examples
 
 
 
 ### Digital collections and exhibitions
+
+Inspiration/notes from digital collections and exhibitions
 
 - Mesopotamia: Getty digital exhibit <!-- note a certain irony in using this example-->
 
