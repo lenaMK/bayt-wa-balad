@@ -1,4 +1,9 @@
-# About the project
+---
+title: About the project
+collection: about
+---
+
+
 
 Excerpts from the [press release](https://mpp-dc.org/baytwabalad/#press), September 15, 2025.
 
