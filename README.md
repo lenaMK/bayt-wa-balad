@@ -1,4 +1,10 @@
-# *Bayt wa Balad*
+---
+title: Overview
+collection: about
+---
+
+
+
 Contributions to [*Bayt wa Balad* (‫وبلد‬ ‫بيت‬): The Palestinian Cultural Mapping Project](https://mpp-dc.org/baytwabalad/), a digital initiative from the [Museum of the Palestinian People](https://mpp-dc.org).
 
 [About the project](./about)
