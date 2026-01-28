@@ -11,7 +11,7 @@ collection: research
 
 ## Project aim and context 
 
-This practical « litterature review » <!--is this the corrrect term to describe what we are doing?--> is a derived research outcome from the [*Bayt wa Balad* bibliography](https://www.zotero.org/groups/6331652/bayt-wa-balad/library). By highlighting key references we found in the literature, it aims to point out good practices that apply to our approach, and identify challenges we might encounter in the making of *Bayt wa Balad*.
+This practical « literature review » is a derived research outcome from the [*Bayt wa Balad* bibliography](https://www.zotero.org/groups/6331652/bayt-wa-balad/library). By highlighting key references we found in the literature, it aims to point out good practices that apply to our approach, and identify challenges we might encounter in the making of *Bayt wa Balad*.
 
 
 
@@ -76,7 +76,8 @@ The brief article by Zena Agha, James Esson, Mark Griffiths, et Mikko Jorone (20
 
 *Palestinian Village Histories*
 
-
+- more than 120 *village memorial books*
+- geographies of dispossession
 
 
 
@@ -159,7 +160,11 @@ Palestine Open Maps
 
 collaboration
 
-> Bayt wa Balad deliberately chose to work with a Palestinian cartographer rather than rely on commercial basemap providers because the project’s aims cannot be met by cartographies that normalize the erasure of Palestinian existence, collapse historical time, or treat Palestine as a derivative geography.
+> The basemap work is undertaken in collaboration with Ahmad Barclay, co-creator of
+> Palestine Open Maps. Bayt wa Balad deliberately chose to work with a cartographer with
+> expert local knowledge rather than rely on commercial basemap providers because the
+> project’s aims cannot be met by cartographies that normalize the erasure of Palestinian
+> existence, collapse historical time, or treat Palestine as a derivative geography
 
 
 
@@ -167,11 +172,43 @@ collaboration
 
 ### Cataloging object biographies
 
-Wafa
+Background: Wafa's research
+
+Cataloging: 
+
+- from objects that have places to detailed place-related metadata
+
+Prototype variants: 
+
+- object types and mediums: sculpture, accessories, magazine clipping, key, glass, *Thobe* (dress) and chest panels, dishes
+- geographies:
+  - Palestine: levels of precision → village, area, city, region, ... up to somewhere in pre-1948 Palestine
+  - Diaspora: specific (ex: refugee Camp in Lebanon) or uncertain (up to anywhere in the world)
+- dates: 
+  - varying levels of time period precision: Uncertain (19th-20th century, or 20th century), decade (ex: 1950s-1960s), specific time period (ex: 1982-1984,1960-1962
+- makers
+  - known
+  - not known
+  - known but anonymous
+
+
+
+
 
 ### Expressing/embracing uncertainty
 
+**BWB** data challenges
 
+- mapping → areas instead of dots
+  - center of Palestine location 
+  - how do we map objects made by the diaspora → symbol for diaspora (globe & palestinian icon)
+  - two approaches: mapping all the data vs bespoke StoryMaps
+- dates → timeframe instead of a specific year?
+  - how to produce a "time-aware map" and take the viewer through space & time
+  - accuracy vs storytelling, basemap vs StoryMap context
+  - thinking in terms of intervals? (anything that could have been during x and y)
+
+Choosing discoverability over uncertainty <!--sort of a turn on accuracy...need to discuss it with Wafa-->: lack of specific knowledge shouldn't make stories and objects invisible. Using uncertainty as when casting a wider net, making things more visible on the map.
 
 
 
@@ -183,24 +220,36 @@ Wafa
 
 Visualizing Palestine
 
-- “storytelling through poetry and art is the only remaining tool for narrating the violent distortion and transfiguration of humanity” (Anani, 2020, p. 6)
+“storytelling through poetry and art is the only remaining tool for narrating the violent distortion and transfiguration of humanity” (Anani, 2020, p. 6)
 
 
 
 ### Story Maps
 
-Inspiration/notes from storyMaps examples
+Inspiration/notes from [storyMaps examples](https://www.zotero.org/groups/6331652/bayt-wa-balad/collections/D5SXEIE6/collection)
 
 
 
 ### Digital collections and exhibitions
 
-Inspiration/notes from digital collections and exhibitions
+#### Inspiration/notes from digital collections 
 
-- Mesopotamia: Getty digital exhibit <!-- note a certain irony in using this example-->
+**Digital Benin**
 
+Portal with many entry points into the contents and the stories (ex: Oral history), similar topic of cultural object diaspora, decolonial museology, etc.
 
+Inspiration for the **BWB** portal
 
+- note: distinguish uses for the touch screen in the museum vs web access
+- BWB is centered on the MPP's collection, but DigitalBenin could serve as a reference as a plateform that points to many resources/objects that are elsewhere: linking, referencing, including through collaboration or open use → as a way to point to the many other ressources on Palestinian culture and history
 
+#### Inspiration/notes from digital exhibitions
 
-https://doi.org/10.70190/jq.I82.p3
+### Mesopotamia
+
+Getty digital exhibit <!-- note a certain irony in using this example-->
+
+Inspiration: 
+
+- Consider a StoryMap where the basemap is the object, ex: a dress, and tell its story by navigating towards different sections of it. The maps become an overlay, perhaps in a smaller frame, while the object is the center of the story
+
