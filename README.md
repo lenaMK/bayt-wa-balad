@@ -17,9 +17,24 @@ Initial project team:
 
 
 
-I started collaborating in the project in the fall of 2025, with the purpose of assisting the team in the research and development process. Current contributions include: 
+I started collaborating in the project in the fall of 2025, with the purpose of assisting the team in the research and development process. Current contributions (all ongoing work) include: 
 
 - [*Bayt wa Balad* project bibliography](https://www.zotero.org/groups/6331652/bayt-wa-balad/library): the bibliography compiles references we gathered. It covers the wide range of topics of the project, such as: mapping and counter-mapping, Palestinian heritage, maps and data portals, decolonial museum practices, visual narratives and storytelling for cultural collections
-- Literature review: the literature review is a derived research outcome from the bibliography. By highlighting key references we found in the literature, it aims to point to good practices that apply to our approach or identify challenges we might encounter in the making of *Bayt wa Balad*.
+
+- [Literature review](./lit-review/index): the literature review is a derived research outcome from the bibliography. By highlighting key references we found in the literature, it aims to point to good practices that apply to our approach or identify challenges we might encounter in the making of *Bayt wa Balad*.
+  The review is divided into three themes: 
+
+  - [Mapping](./lit-review/mapping)
+  - [Cataloging](./lit-review/cataloging)
+  - [Storytelling](./lit-review/storytelling)
+
+- [Project framework](): The framework documents *Bayt wa Balad* R&D questions, challenges and decisions. Its structure mimics the literature review, to provide efficient parallels and sustain links with the existing research and projects:
+
+  - [Mapping](./framework/mapping)
+  - [Cataloging](./framework/cataloging)
+  - [Storytelling](./framework/storytelling)
+
 - Object prototypes: the *Bayt wa Balad* team is collectively working towards the first prototypes. They are StoryMaps focusing on specific objects in the collection, merging in-depth research with geo/visual enhancements.
+
+  
 
