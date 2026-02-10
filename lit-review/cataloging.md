@@ -34,3 +34,11 @@ Palestinian museum collection
 
 Choosing discoverability over uncertainty <!--sort of a turn on accuracy...need to discuss it with Wafa-->: lack of specific knowledge shouldn't make stories and objects invisible. Using uncertainty as when casting a wider net, making things more visible on the map.
 
+
+
+Visualizing Palestine
+
+> - What approaches render the scale of violations legible, while honoring the specificity of people’s individual stories?
+> - What are the limitis of our imagination and visual vocabulary in demonstrating systems of oppression that have been purposely designed to be invisible, fragmented, and opaque? 
+> - How do we navigate gaps in the data, and truths that cannot be measured or counted?
+> - And how can our knowledge effectively support transformative action?

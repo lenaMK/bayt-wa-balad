@@ -12,7 +12,12 @@ collection: research
 
 ### Palestinian narratives
 
-Visualizing Palestine
+Visualizing Palestine → provide a brief template in the Annex
+
+- focus on shifting narratives, recognizing that Palestine has been the subject of a century of colonial narratives designed to obscure, justify, and perpetuate oppression (p.2)
+- create visual stories to nourish education, advocacy, organizing, and collective action for Palestinian liberation (p.2)
+
+
 
 “storytelling through poetry and art is the only remaining tool for narrating the violent distortion and transfiguration of humanity” (Anani, 2020, p. 6)
 
