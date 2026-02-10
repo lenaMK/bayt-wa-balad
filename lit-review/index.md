@@ -11,17 +11,22 @@ collection: research
 
 This practical « literature review » is a derived research outcome from the [*Bayt wa Balad* bibliography](https://www.zotero.org/groups/6331652/bayt-wa-balad/library). By highlighting key references we found in the literature, it aims to point out good practices that apply to our approach, and identify challenges we might encounter in the making of *Bayt wa Balad*.
 
+The review is structured around key topics in the making of *Bayt wa Balad*, divided into three themes: 
+
+- [Mapping](./lit-review/mapping)
+  - Mapping and counter-mapping practices
+  - Thinking across histories and geographies
+  - Place names
+  - Existing maps, data portals and other sources
+- [Cataloging](./lit-review/cataloging)
+  - Cataloging object biographies
+  - Expressing/embracing uncertainty
+- [Storytelling](./lit-review/storytelling)
+  - Palestinian narratives
+  - Story Maps
+  - Digital collections and exhibitions
 
 
-### *Bayt wa Balad*
-
-[remix from diverse BWBxMPP documents]
-
-*Bayt wa Balad* is a digital mapping initiative led by the Museum of Palestinian People (Washington D.C.) and funded by the Mellon Foundation. It is dedicated to preserving and documenting Palestinian cultural heritage from the diaspora. Through the lens of history, whether ancient or contemporary, the museum’s collection becomes a vessel for storytelling, resilience, and the preservation of identity—offering a space where heritage is not only remembered but actively reclaimed in the face of erasure.
-
-This project integrates technology, historical research, and storytelling to document and visualize displaced and destroyed Palestinian cultural heritage through an interactive map. It begins by furthering research into the museum’s collection, documenting each object within its original geography, maker history, and cultural context, if possible. Using the research data, each object is then mapped from where it was made, to how it reached the diaspora, providing vital insight into the exile of objects as a way to visualize and learn about the exile of the Palestinian people, and the various paths each person and family has taken. Through the lens of history, whether ancient or contemporary, the museum’s collection becomes a vessel for storytelling, resilience, and the preservation of identity—offering a space where heritage is not only remembered but actively reclaimed in the face of erasure.
-
-The resulting work will be made publicly accessible through an interactive digital platform. In resisting deliberate erasure in the United States, the museum stands in solidarity with Palestinian cultural institutions worldwide, serving as a testament to the unyielding spirit of a people whose history is inscribed in art, collective memory, and the land itself.
 
 ### Literature review production and positionality
 
@@ -31,27 +36,9 @@ Other references have been included (many are documented in the bibliography) so
 
 The literature review is currently an open and ongoing process. Contributions are welcome, and will be integrated to the best of the team's capacity.
 
-### Structure
-
-The review is structured around key topics in the making of *Bayt wa Balad*. 
-
-Sections that are currently planned or in writing: 
-
-- Mapping Palestine
-  - Mapping and counter-mapping practices
-  - Thinking across histories and geographies
-  - Place names
-  - Existing maps, data portals and other sources
-  - Considerations for the *Bayt wa Balad* base map
-- Building (geo-)narratives
-  - Cataloging object biographies
-  - Expressing/embracing uncertainty
-- Visual and cartographic story telling
-  - Palestinian narratives
-  - Story Maps
-  - Digital collections and exhibitions
-
 For now, the writing style is aimed at practical use, therefore minimally stitching together notes, excepts, questions, and comments that arose from the topic. A textual narrative form is considered for later publication.
+
+
 
 
 

@@ -94,8 +94,6 @@ Abushama, Hashem. 2025. « Mapping and Countermapping Dispossession in Palestine
 
 ### Existing maps, data portals and other sources
 
-
-
 Palestine Open Maps
 
 ### Considerations for the *Bayt wa Balad* base map
@@ -104,17 +102,4 @@ Palestine Open Maps
 
 - consider if roads are meaningful in *Bayt wa Balad*, whether their presence in the map can support a Palestinian narrative?
 
-
-
-
-
-
-
-collaboration
-
-> The basemap work is undertaken in collaboration with Ahmad Barclay, co-creator of
-> Palestine Open Maps. Bayt wa Balad deliberately chose to work with a cartographer with
-> expert local knowledge rather than rely on commercial basemap providers because the
-> project’s aims cannot be met by cartographies that normalize the erasure of Palestinian
-> existence, collapse historical time, or treat Palestine as a derivative geography
 
