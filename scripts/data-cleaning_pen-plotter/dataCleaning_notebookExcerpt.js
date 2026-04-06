@@ -4,7 +4,8 @@
     date: Hiver 2026
     description: Script pour renommer et réorganiser les données de l'API du MPP.
     liens:
-        - cleanData est une cellule du notebook suivant: https://observablehq.com/@bayt-wa-balad/data-exploration#cleanData
+        - cleanData est une cellule du notebook suivant:
+          https://observablehq.com/@bayt-wa-balad/data-exploration#cleanData
         - data : https://api.catalogit.app/api/public/accounts/8729/entries
 */
 
@@ -122,7 +123,6 @@ cleanData = {
           p.lon = temp.lon
         })
       })
-      
     }
 
     var creation_notes = null
