@@ -54,8 +54,12 @@ function mouseClicked(){
 
 function draw(){
 
-    
 
+    /* add buttons 
+        - all to black
+        - flag
+        - keffier
+    */ 
     push();
     translate(margins, margins);
     background('grey')
