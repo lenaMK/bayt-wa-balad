@@ -24,18 +24,18 @@ function setup() {
     //getpng()
     getsvg();
     viewCode = 1
-    changePage()
+    //changePage()
     centerCanvas();
     angleMode(DEGREES);
     textWrap(WORD);
     colorMode(HSB, 360, 100, 100, 250);
     textMargin = Math.floor(96*297/25.4/8)
     console.log(typeof(textMargin))
-    maxTextWidth = Math.floor( Math.floor(96*297/25.4) - (textMargin*2))
+    maxTextWidth = Math.floor( Math.floor(96*297/25.4) - textMargin)
     console.log("max text width", maxTextWidth)
     
 }
-
+/*
 function changePage() {
     imgbtn = createButton(`Page change`);
     placebtn(1);
@@ -48,6 +48,7 @@ function changePage() {
     });
     redraw()
 }
+    */
 function getsvg() {
     //A3
     w=Math.floor(96*297/25.4)
@@ -96,12 +97,13 @@ function draw() {
     background(0, 0, 100)
     noFill()
     stroke(0,100,100)
-    writecode()
+    writecode(0, 113)
+    //writecode(113, sourcecode.length)
     noLoop()
 }
 
 
-function writecode() {
+function writecode(start, end) {
     var x, y, loc
     x = textMargin
     y = 42
@@ -109,12 +111,8 @@ function writecode() {
     fill(0,0,0)
     textSize(fSize)
     textFont(font)
-    var sourceCodeSection
+    var sourceCodeSection= sourcecode.slice(start, end)
     console.log(sourcecode)
-    if (viewCode == 1)
-        sourceCodeSection = sourcecode.slice(0, 117)
-    else 
-        sourceCodeSection = sourceCodeSection.subarray(117, sourcecode.length)
     
     for (let b in sourceCodeSection) {
         loc=sourceCodeSection[b]
