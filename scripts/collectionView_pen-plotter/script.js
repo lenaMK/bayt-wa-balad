@@ -23,9 +23,8 @@ function setup() {
     data = Object.values(importedObject)
     classifications = Object.values(importedClassifications)
 
-
     squares = Math.floor(Math.sqrt(data.length)) +1
-    square_size = Math.floor((w - 20 *2 )/ squares)
+    square_size = Math.floor((w - 100 *2 )/ squares)
 
     console.log(w)
     console.log(square_size)
@@ -189,8 +188,6 @@ function drawShape(classification, x, y, width){
             line(x + 10, y + 25, x + width, y + 25)
             line(x + 10, y + 30, x + width, y + 30)
             line(x + 10, y + 35, x + width, y + 35)
-            line(x + 10, y + 40, x + width, y + 40)
-            line(x + 10, y + 45, x + width, y + 45)
             break;
         case "Audio Recording":
             beginShape();
@@ -235,8 +232,7 @@ function draw(){
     noFill()
     
     push();
-        translate(x,0)
-        translate(margins +20, margins + 20)
+        translate(x,200)
         colorScheme = []
         classifications.forEach(d => colorScheme.push({
             name: d,
@@ -271,16 +267,16 @@ function draw(){
         for (i in classifications){
 
             if (i < 10) {
-                x = i * square_size + margins + 20
-                y = (squares + 3) * square_size + Math.floor(i / 11) * square_size
+                x = i * (square_size+15) + 2
+                y = (squares + 3) * square_size + Math.floor(i / 11) * square_size + 200
             }
             else {
-                x = (i-10) * square_size + margins + 20
-                y = (squares + 3) * square_size + 2 * square_size 
+                x = (i-10) * (square_size+15) +2
+                y = (squares + 3) * square_size + 2 * square_size +200
             }
             
             drawShape(classifications[i], x, y, square_size-25)
-            text(classifications[i], x, y- 15)
+            text(classifications[i], x+3, y - 35, square_size)
         }
 
 

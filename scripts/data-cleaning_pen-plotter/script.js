@@ -29,9 +29,9 @@ function setup() {
     angleMode(DEGREES);
     textWrap(WORD);
     colorMode(HSB, 360, 100, 100, 250);
-    textMargin = Math.floor(96*297/25.4/8)
+    textMargin = Math.floor(96*10/25.4)
     console.log(typeof(textMargin))
-    maxTextWidth = Math.floor( Math.floor(96*297/25.4) - textMargin)
+    maxTextWidth = Math.floor(96*250/25.4)
     console.log("max text width", maxTextWidth)
     
 }
@@ -106,7 +106,7 @@ function draw() {
 function writecode(start, end) {
     var x, y, loc
     x = textMargin
-    y = 42
+    y = Math.floor(96*30/25.4)
     stroke(0,0,0)
     fill(0,0,0)
     textSize(fSize)
