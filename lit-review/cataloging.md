@@ -34,6 +34,25 @@ Palestinian museum collection
 
 Choosing discoverability over uncertainty <!--sort of a turn on accuracy...need to discuss it with Wafa-->: lack of specific knowledge shouldn't make stories and objects invisible. Using uncertainty as when casting a wider net, making things more visible on the map.
 
+Sanders, Ashley. 2024. *Visualizing History’s Fragments: A Computational Approach to Humanistic Research*
+
+> - one more step beyond analyzing the information that exists in sources and data sets: investigate missing information and contemplate reasons for these gaps (103)
+> - to examine the silences in the data means asking questions about the information that is not, or cannot be, know, and what these voids mean (103)
+>
+> Quantified data needs to be verifiable, replicable, and therefore well-documented. (109)
+
+Visualizing 
+
+
+
+
+
+
+
+
+
+
+
 
 
 Visualizing Palestine
