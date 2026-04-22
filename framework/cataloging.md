@@ -41,5 +41,7 @@ Prototype variants:
 
 Choosing discoverability over uncertainty <!--sort of a turn on accuracy...need to discuss it with Wafa-->: lack of specific knowledge shouldn't make stories and objects invisible. Using uncertainty as when casting a wider net, making things more visible on the map.
 
+Sanders, Ashley. 2024. *Visualizing History’s Fragments: A Computational Approach to Humanistic Research*
 
-
+- make sure to document the data structure and choices! 
+- 

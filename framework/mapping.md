@@ -18,8 +18,8 @@ Palestine Base map : there are no neutral base maps
 
 World view
 
-- letting go of Mercator → 3D globe for object trajectories
+- letting go of Mercator → 3D globe for object trajectories? 
 
 Uncertain places
 
-- marking
+- palestinian diaspora: how we define it? <!--The diaspora, in the case of Palestinians, is a time marker and not a place marker, because any object made/altered after the Nakba is from the diaspora. Diaspora therefore refers to a time-frame rather than a geographical location, which is why we can't map it *per se*. And also why time markers are of the essence in our maps-->

@@ -227,11 +227,10 @@ function drawShape(classification, x, y, width){
 }
 
 function draw(){
-    textFont(font)
     background('white')
     stroke('black')
     noFill()
-    
+    /*
     push();
         translate(x,200)
         colorScheme = []
@@ -261,8 +260,8 @@ function draw(){
 
 
     pop();
-
-
+*/
+    textFont(font)
     push();
         
         for (i in classifications){
@@ -276,8 +275,9 @@ function draw(){
                 y = (squares + 3) * square_size + 2 * square_size +200
             }
             
-            drawShape(classifications[i], x, y, square_size-25)
-            
+            //drawShape(classifications[i], x, y, square_size-25)
+
+
             var name = classifications[i]
             if (name.includes("/"))
                 name = name.replaceAll("/", " / ")

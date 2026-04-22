@@ -79,14 +79,6 @@ Abushama, Hashem. 2025. « Mapping and Countermapping Dispossession in Palestine
 
 
 
-
-
-
-
-
-
-
-
 - Al-Shihabi, Majd. 2025. “Mapping and Counter-Mapping.” Theme. *Palestine: Spaces and Politics*, November 21. https://palestine.araburbanism.com/theme/mapping-countermapping/.
 - Bier, Jess. 2017. “Palestinian State Maps and Imperial Technologies of Staying Put.” *Public Culture* 29 (1): 53–78. https://doi.org/10.1215/08992363-3644397.
 
@@ -101,5 +93,4 @@ Palestine Open Maps
 " Roads, as Salamanca (2020) argues, are part of a wider project of dispossession that serves the long-term domination of the settlers." (Abushama, Hashem. 2024. “A Map without Guarantees: Stuart Hall and Palestinian Geographies.” *Stuart Hall Foundation*. Accessed January 21, 2026. https://www.stuarthallfoundation.org/resource/a-map-without-guarantees-stuart-hall-and-palestinian-geographies/.)
 
 - consider if roads are meaningful in *Bayt wa Balad*, whether their presence in the map can support a Palestinian narrative?
-
 

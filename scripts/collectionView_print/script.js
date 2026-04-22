@@ -1,3 +1,4 @@
+
 var data, importedObject, classifications, importedClassifications
 var margins
 var squares, square_size
@@ -6,11 +7,17 @@ var w, h
 var cnv
 var font
 var fSize = 12
+
 function preload() {
     importedObject = loadJSON("../../data/MPP_API_cleanData.json")
     importedClassifications = loadJSON("../../data/classifications.json")
+    /*
     font = loadFont("../../fonts/FreeMono.otf");
-}
+    font_bold = loadFont("../../fonts/FreeMonoBold.otf")
+    font_bold_oblique = loadFont("../../fonts/FreeMonoBoldOblique.otf")
+    font_oblique = loadFont("../../fonts/FreeMonoOblique.otf")
+*/
+    }
 
 
 
@@ -20,31 +27,28 @@ function setup() {
     createCanvas(windowWidth, windowHeight); 
     getsvg();
     centerCanvas();
+
+
+    
     data = Object.values(importedObject)
     classifications = Object.values(importedClassifications)
 
-    squares = Math.floor(Math.sqrt(data.length)) +1
-    square_size = Math.floor((w - 100 *2 )/ squares)
+    squares = 4
+    square_size = Math.floor((w -50 )/ squares)
 
-    console.log(w)
-    console.log(square_size)
-    console.log(squares)
-
-    margins = (w - squares * square_size ) / 2
-    console.log(margins)
     noLoop()
 }
 
 
 function getsvg() {
-    //A3
-    w=Math.floor(96*297/25.4)
-    h=Math.floor(96*420/25.4)
+    //8.5' x 11'
+    w=Math.floor(96*215.9/25.4)
+    h=Math.floor(96*279.4/25.4)
     cnv = createCanvas(w, h, SVG).mousePressed(savesvg);
     imgbtn = createButton("save svg");
     
-    var x = (windowWidth - w) / 2;
-    var y = (windowHeight - h) / 2;
+    var x = Math.floor((windowWidth - w) / 2);
+    var y = Math.floor((windowHeight - h) / 2);
     imgbtn.position(x - 200, y + h / 2 + 42)
 
     imgbtn.mouseClicked(savesvg);
@@ -227,31 +231,47 @@ function drawShape(classification, x, y, width){
 }
 
 function draw(){
-    textFont(font)
+    textStyle(NORMAL);
     background('white')
     stroke('black')
     noFill()
+
+    rect(0, 0, w, h)
     
     push();
-        translate(x,200)
-        colorScheme = []
-        classifications.forEach(d => colorScheme.push({
-            name: d,
-            color: color(random(0, 260), random(50, 100), random(50, 100))
-        }))
+        translate(20,40)
+        var pageNumber = 7
 
-        var lastY
-        for (let i = 0; i < squares + 1; i++ ){
-            for (let j = 0; j < squares + 1; j++){
-                var current = i* squares + j
 
+        for (let i = 0; i < 5; i++ ){
+            for (let j = 0; j < squares ; j++){
+                
+                var current = i* squares + j + pageNumber*20
+                
                 if (data[current]){
-                    var width = square_size-25
-                    var x = i * square_size
-                    var y = j * square_size
+                    
+                    var x = j * square_size
+                    var y = i * square_size
+
+                    stroke('lightgrey')
+                    square(x, y, square_size)
                     //console.log(data[current].catNb)
-                    drawShape(data[current].classification, x, y, width)
-                    lastY = y
+                    //drawShape(data[current].classification, x, y, width)
+
+                    stroke('black')
+                    //textFont(font)
+                    text(data[current].classification, x + 5, y + fSize * 2, square_size - 8)
+
+                    textStyle(ITALIC);
+                    //textFont(font_bold_oblique)
+                    text(data[current].name, x + 5, y+fSize*5, square_size - 8)
+                    textStyle(NORMAL);
+                    //textFont(font)
+                    if (data[current].maker)
+                        text(data[current].maker, x + 5, y+fSize*9, square_size - 8)
+                    
+                    if (data[current].catNb)
+                        text(data[current].catNb, x + 5, y + square_size - 20, square_size - 8)
                 }
                 
             }
@@ -262,36 +282,6 @@ function draw(){
 
     pop();
 
-
-    push();
-        
-        for (i in classifications){
-
-            if (i < 10) {
-                x = i * (square_size+15) + 2
-                y = (squares + 3) * square_size + Math.floor(i / 11) * square_size + 200
-            }
-            else {
-                x = (i-10) * (square_size+15) +2
-                y = (squares + 3) * square_size + 2 * square_size +200
-            }
-            
-            drawShape(classifications[i], x, y, square_size-25)
-            
-            var name = classifications[i]
-            if (name.includes("/"))
-                name = name.replaceAll("/", " / ")
-
-
-            text(name, x+1, y - 35, square_size + 15)
-        }
-
-
-
-
-
-
-    pop()
 }
 
 
